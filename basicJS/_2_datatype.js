@@ -14,5 +14,5 @@ symbol -> unique
 
 */
 
-console.log(typeof null);
-console.log(typeof undefined);
+console.log(typeof null); // output: object         
+console.log(typeof undefined); // Output: undefined
