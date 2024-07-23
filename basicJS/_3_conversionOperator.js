@@ -24,3 +24,23 @@ false = 0
 // 1 -> true , 0 -> false
 // "" ->false
 // "hitesh" -> true
+
+
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+console.log(1 + "2");
+console.log("1" + 2);
+console.log(1 + 2 + "4");
+console.log("1" + 2 + 5);
+
+let num1, num2, num3 
+
+num1 = num2 = num3 = 2 + 1 // This is not a good way to write 
+
+let count = 100
+++count;
+console.log(count);
+
+//
