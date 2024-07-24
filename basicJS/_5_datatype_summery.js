@@ -54,3 +54,27 @@ Number          "number"
 String          "string"
 Object
 */
+
+
+//-------------------------------------------------------------
+
+// Stack: Creates copy of existing() variable (Primitive), Heap: Creates reference of existing(original value) functon/variable (Non-Primitive)
+
+let myAccName = "AE.com"
+let anotherName = myAccName
+anotherName = "DD.com"
+
+console.log(myAccName);
+console.log(anotherName);
+
+let user1 = {
+    email: "user1@gmail.com",
+    upi: "user1@ybl"
+}
+let user2 = user1
+
+user2.email = "ae@google.com"
+
+console.log(user1.email);
+console.log(user2.email);
+// Output: ae@google.com
