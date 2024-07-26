@@ -2,6 +2,7 @@ let myDate = new Date();
 console.log(myDate.toString());
 console.log(myDate.toLocaleString());
 
+// imp. interview
 console.log(typeof myDate);
 // Output : object
 
