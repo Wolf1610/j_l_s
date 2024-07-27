@@ -30,6 +30,8 @@ console.log(Array.from("Hello"));
 console.log(Array.from({name: "Wolf"}));
 // Output: []
 
+
+
 let score1 = 10;
 let score2 = 24;
 let score3 = 62, score4 = 75;           
