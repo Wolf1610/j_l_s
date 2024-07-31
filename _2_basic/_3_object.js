@@ -1,5 +1,11 @@
 
 // Obj Literals
+/*  
+    Interview Q:
+    If we declare an obj as Literal, It doesn't form singleton
+    If we declare an obj as Constructor, If forms singleton
+
+*/
 
 const mySym = Symbol("Key1")
 
