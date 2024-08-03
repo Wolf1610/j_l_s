@@ -28,13 +28,13 @@ function one(){
 one()
 
 
-console.log(addOne(4));
+console.log(addOne(4)); // here we can call the function before function initialazation method 1
 // 1. Method function
 function addOne(num){
     return num + 1
 }
 
-// console.log(addTwo(5)); // error -> We can't call function before initialization
+// console.log(addTwo(5)); // error -> We can't call function before initialization by using below method 2
 // 2. Method function
 const addTwo = function(num){
     return num + 2
