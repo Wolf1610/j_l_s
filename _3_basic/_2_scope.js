@@ -35,7 +35,7 @@ function addOne(num){
 }
 
 // console.log(addTwo(5)); // error -> We can't call function before initialization by using below method 2
-// 2. Method function
+// 2. Method function ( is called Hoisting -> execution centest)
 const addTwo = function(num){
     return num + 2
 }
