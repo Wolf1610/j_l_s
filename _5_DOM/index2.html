@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 2</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <h1 class="h-1">Hey, I am learning...</h1>
+    <div class="parent">
+        <p class="day">Sunday</p>
+        <p class="day">Monday</p>
+        <p class="day">TuesDay</p>
+        <p class="day">Wednesday</p>
+        <p class="day">Thursday</p>
+    </div>
+
+    
+<script>
+    const parent = document.querySelector('.parent');
+    console.log(parent);
+    console.log(parent.children);
+    // console.log(parent.children[1].innerText);
+    // console.log(parent.children[1].innerHTML);
+    // for(let i=0; i<parent.children.length; i++){
+    //     console.log(parent.children[i].innerHTML);
+    // }
+    parent.children[1].style.color="yellow";
+    console.log(parent.firstElementChild);
+    console.log(parent.lastElementChild);
+
+    const dayOne = document.querySelector('.day')
+    console.log(dayOne);
+    console.log(dayOne.parentElement);
+    console.log(dayOne.nextElementSibling);
+    
+    // It stores in tree structure, behind the scene
+    console.log("Nodes : ", parent.childNodes);     
+    
+    
+</script>
+</body>
+</html>
